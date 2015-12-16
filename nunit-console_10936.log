@@ -1,0 +1,31 @@
+InternalTrace: Initializing at level Verbose
+10:21:00.404 Info  [ 1] Runner: NUnit-console.exe starting
+10:21:00.466 Debug [ 1] ServiceManager: Added SettingsService
+10:21:00.466 Debug [ 1] ServiceManager: Added DomainManager
+10:21:00.467 Debug [ 1] ServiceManager: Added ProjectService
+10:21:00.468 Debug [ 1] ServiceManager: Added AddinRegistry
+10:21:00.468 Debug [ 1] ServiceManager: Added AddinManager
+10:21:00.470 Debug [ 1] ServiceManager: Added TestAgency
+10:21:00.472 Info  [ 1] ServiceManager: Initializing SettingsService
+10:21:00.472 Info  [ 1] ServiceManager: Initializing DomainManager
+10:21:00.472 Info  [ 1] ServiceManager: Initializing ProjectService
+10:21:00.472 Info  [ 1] ServiceManager: Initializing AddinRegistry
+10:21:00.472 Info  [ 1] ServiceManager: Initializing AddinManager
+10:21:00.476 Debug [ 1] ServiceManager: Request for service IAddinRegistry satisfied by AddinRegistry
+10:21:00.482 Info  [ 1] ServiceManager: Initializing TestAgency
+10:21:00.506 Debug [ 1] ServiceManager: Request for service ProjectService satisfied by ProjectService
+10:21:00.547 Debug [ 1] RuntimeFrameworkSelector: Current framework is net-3.5
+10:21:00.547 Debug [ 1] RuntimeFrameworkSelector: No specific framework requested
+10:21:00.548 Debug [ 1] ServiceManager: Request for service ISettings satisfied by SettingsService
+10:21:00.558 Debug [ 1] RuntimeFrameworkSelector: Assembly D:\P4\Ignite\Prototype\Sandbox\TimeoutTests\bin\Debug\TimeoutTests.dll uses version 4.0.30319
+10:21:00.570 Debug [ 1] ServiceManager: Request for service TestAgency satisfied by TestAgency
+10:21:00.573 Debug [ 1] RuntimeFrameworkSelector: Test will use net-4.0 framework
+10:21:00.577 Info  [ 1] ProcessRunner: Loading TimeoutTests.dll
+10:21:00.579 Info  [ 1] TestAgency: Getting agent for use under net-4.0
+10:21:00.587 Debug [ 1] TestAgency: Using nunit-agent at C:\Program Files (x86)\NUnit 2.6.2\bin\nunit-agent.exe
+10:21:00.593 Info  [ 1] TestAgency: Launched Agent process 11984 - see nunit-agent_11984.log
+10:21:00.593 Info  [ 1] TestAgency: Command line: "C:\Program Files (x86)\NUnit 2.6.2\bin\nunit-agent.exe" 7e6bc8c3-d4ce-43b4-b94d-2a258fd6bb81 tcp://127.0.0.1:56871/TestAgency
+10:21:00.594 Debug [ 1] TestAgency: Waiting for agent {7e6bc8c3-d4ce-43b4-b94d-2a258fd6bb81} to register
+10:21:00.794 Debug [ 1] TestAgency: Returning new agent {7e6bc8c3-d4ce-43b4-b94d-2a258fd6bb81}
+10:21:22.586 Info  [ 1] ProcessRunner: Stopping remote agent
+10:21:22.588 Info  [ 1] Runner: NUnit-console.exe terminating
